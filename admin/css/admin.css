@@ -1,0 +1,148 @@
+/* main body containt start */
+
+body{
+    font-family: 'Robot', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ccc9c2;
+    
+}
+h1{
+    padding: 8px;
+    background-color: rgba(255,0,0,0.8);
+    border-radius: 8px;
+    margin: 0;
+    font-size: 64px;
+    font-family: 'Roboto slab', serif;
+}
+p{
+    line-height: 1.5;
+}
+main{
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* main body containt end */
+
+
+input{
+    width: 380px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* main banner and form start */
+
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-wrapper{
+    border-radius: 10px;
+    background-color: #ffffe6;
+    border: 3px solid #f1f1f1;
+    width: 500px;
+    margin-top: 10%;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.inner-container{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.img-container{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.img1{
+    width: 30%;
+    border-radius: 50%;
+}
+
+/* main banner and form end */
+
+/* Admin Login button start */
+.login_button{
+    background-color:  #1a1aff;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}   
+
+.add_btn{
+    background-color: #1a1aff;
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    margin-left: 45%;
+}
+/* Admin Login button end */
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}

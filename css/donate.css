@@ -1,0 +1,215 @@
+/* main body containt start */
+
+
+body{
+    font-family: 'Robot', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+h1{
+    padding: 8px;
+    background-color: rgba(255,0,0,0.8);
+    border-radius: 8px;
+    margin: 0;
+    font-size: 64px;
+    font-family: 'Roboto slab', serif;
+}
+p{
+    line-height: 1.5;
+}
+main{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* main body containt end */
+
+
+input{
+    width: 430px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Navigation menu start */
+
+.active{
+    color: #f783ae;
+}
+#menu-icon{
+    height: 100%;
+    font-size: 28px;
+    padding: 0 4 px;
+    color: #eee;
+    display: none;
+    align-items: center;
+}
+#logo-img{
+    display: flex;
+    height: 100%;
+    background: #202125;
+    padding: 0 32;
+    align-items: center;
+    color: white;
+    transition: 0.4s;
+}
+#logo-img img{
+    height: 75px;
+    width: 150px;
+}
+#logo-img:hover{
+    background: black;
+}
+nav{
+    height: 72px;
+    background-color: #202125;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 0 0;
+    box-sizing: border-box;
+    z-index: 100;
+}
+nav a{
+    padding: 0 32px;
+    color: #eee;
+    transition: 0.4s;
+}
+nav a:hover{
+    text-decoration: none;
+    color: red;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.log-btn{
+    width: 73px; 
+    height: 30px;
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: black;
+    color: white; 
+    font-weight: bold; 
+    font-size: 15px; 
+}
+
+.log-btn:hover{
+    text-decoration: none;
+    color: red;
+}
+/* Navigation menu end */
+
+
+/* main heading start */
+#banner{
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0,0,0,0.2) url('../img/log2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+}
+#banner h3{
+    background:black;
+    border-radius: 8px;
+    padding: 0 24px;
+    font-size: 24px;
+}
+
+#main-wrapper{
+    border-radius: 10px;
+    background-color: #F0FFF0;
+    border: 3px solid #f1f1f1;
+    width: 500px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+
+/* main heading end */
+
+
+/* footer part start */
+footer{
+    background: black;
+    padding: 8px;
+    color: #eee;
+    display: flex;
+}
+footer a{
+    color: white;
+}
+footer #left-footer{
+    flex: 1;
+    border-right: 1px solid red;
+    padding-left: 32px;
+}
+footer #left-footer ul{
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+}
+footer #right-footer{
+    flex: 2;
+    padding: 8px;
+    text-align: center;
+}
+footer #social-media-footer a .fa-facebook,
+footer #social-media-footer a .fa-youtube,
+footer #social-media-footer a .fa-github{
+    color: white;
+    transition: 0.4s;
+}
+footer #social-media-footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+footer #social-media-footer ul li{
+    font-size: 48px;
+    padding: 16px;
+    transition: 0.4s;
+}
+footer #social-media-footer ul li:hover a .fa-youtube{
+    color: red;
+}
+footer #social-media-footer ul li:hover a .fa-facebook{
+    color: #3b5998;
+}
+footer #social-media-footer ul li:hover a .fa-github{
+    color: #bbb;
+}
+
+/* footer part start */
+
+ 
+
